@@ -1,0 +1,11 @@
+    # SLAVE MODE
+When SS is held low, the SPI is activated, and MISO becomes an output if configured so by the user. All
+other pins are inputs.
+ When SS is driven high, all pins are inputs except MISO which can be user
+configured as an output, and the SPI is passive, which means that it will not receive incoming
+data.
+
+    # MASTER MOD 
+
+
+// SS COULD BE THE VALUE 
